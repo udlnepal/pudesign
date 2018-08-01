@@ -1,0 +1,183 @@
+body{
+background: #fafafa;
+}
+.pad_fix{
+	padding: 0 !important;
+}
+.bg_static_top{
+background: #bf2a2a !important;
+}
+.bg_static_top ul li a{
+color:#fff !important;
+}
+.bg_static_top ul li a:hover{
+  /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";	
+}
+.navbar .mega-dropdown {
+  position: static !important; }
+
+.navbar .dropdown-menu.mega-menu {
+  width: 100%;
+  border: none;
+  border-radius: 0; }
+  .navbar .dropdown-menu.mega-menu.v-2 a {
+    padding: 15px 10px 10px 35px; }
+    .navbar .dropdown-menu.mega-menu.v-2 a.news-title-2 {
+      font-weight: 500;
+      font-size: 1.1rem;
+      line-height: 1.5;
+      -webkit-transition: .2s;
+      transition: .2s;
+      color: #fff !important; }
+      .navbar .dropdown-menu.mega-menu.v-2 a.news-title-2:hover {
+        color: #d0d6e2 !important; }
+  .navbar .dropdown-menu.mega-menu.v-2 .sub-menu ul {
+    list-style: none; }
+    .navbar .dropdown-menu.mega-menu.v-2 .sub-menu ul.caret-style li {
+      -webkit-transition: .3s;
+      transition: .3s; }
+      .navbar .dropdown-menu.mega-menu.v-2 .sub-menu ul.caret-style li:hover {
+        background-color: rgba(0, 0, 0, 0.2);
+        -webkit-transition: .3s;
+        transition: .3s; }
+    /*  .navbar .dropdown-menu.mega-menu.v-2 .sub-menu ul.caret-style li a:after {
+        font-family: "fontAwesome";
+        content: '\f0da';
+        position: absolute;
+        left: 0.5rem;
+        font-size: 12px;
+        top: 1rem; } */
+  .navbar .dropdown-menu.mega-menu.v-2 .sub-menu a.menu-item {
+   color: #444 !important;
+   list-style:none;
+   text-decoration:none; }
+    .navbar .dropdown-menu.mega-menu.v-2 .sub-menu a.menu-item:hover {
+      color: #fff !important; }
+  .navbar .dropdown-menu.mega-menu.v-2 .sub-title {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid; }
+  .navbar .dropdown-menu.mega-menu.v-2 .font-small {
+    font-size: 0.85rem; }
+
+.bg_1{
+   /* background-image: url("../img/bg1.jpg");*/
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.news_events{
+    background-image: url("../img/bg2.jpg");
+
+    /* Set a specific height */
+    height: 630px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+background:#26292C !important;
+}
+.contact_box{
+background:#1B1D1F;
+}
+
+	.ico_pad_20_25{
+
+		padding: 20px;
+		font-size: 25px;
+		color:#fff;
+		background: #bf2a2a;
+		}
+		.pad_5{
+		padding:5px;
+		}
+		.abs_block{
+			position: absolute;
+			top: -80px;
+			z-index: 1;
+		}
+		
+		.abs_text_block{
+			padding: 65px 10px 5px 10px;
+			border-top: 4px solid #bf2a2a;
+			position: absolute;
+    		z-index: -1;
+    		top: 40px;
+    		background: #fff;
+    		-webkit-box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.75);
+			-moz-box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.75);
+			box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.75);
+			min-height: 250px;
+		}
+		.text-prime{
+		color:#bf2a2a;
+		font-weight: bold;
+		}
+		.block_2{
+		background:#E7E7E7;
+		}
+		.news_events{
+		margin-top:180px;
+		padding-top:50px;
+		}
+		.main_footer{
+		padding:20px;
+		}
+		.contact_box{
+		padding:20px 5px; 
+		}
+@media screen and  (max-width:992px){	
+.abs_text_block,.abs_block{
+position:relative !important;
+}
+.abs_text_block{
+top:-40px;
+}
+}
+ul.links_foot_main li{
+list-style:none;
+	padding:10px 5px;
+	
+}
+ul.links_foot_main li a{
+		padding:10px 5px;
+text-decoration:none;
+color:#fff;
+}
+ul.links_foot_main{
+padding:0;
+}
+ul.links_foot_main li a:hover{
+background:#696969;
+}
+
+.navbar .mega-dropdown {
+    cursor: pointer;
+}
+button.navbar-toggler{
+border:1px solid #555;
+}
+
+.mar-5-top{
+margin-top:5px;
+}
+i.fas.fa-bars.mar-5-top{
+color:#555;
+}
